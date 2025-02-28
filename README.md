@@ -1,4 +1,4 @@
-# Exam7Solutions
+
 ## Setup Project
 
 - Node.js 18, 20 or 22. 
