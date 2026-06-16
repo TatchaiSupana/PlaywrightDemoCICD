@@ -53,7 +53,7 @@ test.describe('Register empeo positive', () => {
 test.describe('Register empeo negative', () => {
   test('Unable to register empeo when field is empty', async ({ page, regisPage }) => {
     await regisPage.acceptCookie();
-    await regisPage.registerFieldEmpty();
+    await regisPage.tryFreeButtonLocator.click();
     await expect(regisPage.registerFrame.getByText('กรุณากรอกเลขประจำตัวผู้เสียภาษีหรือชื่อบริษัท')).toBeVisible();
     await expect(regisPage.registerFrame.getByText('กรุณากรอกประเภทธุรกิจ')).toBeVisible();
     await expect(regisPage.registerFrame.getByText('กรุณากรอกผู้ใช้งาน')).toBeVisible();
