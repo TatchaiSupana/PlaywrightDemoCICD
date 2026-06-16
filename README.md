@@ -6,7 +6,9 @@
 - step 1 
 
 ```bash
+- windows OS
 $ npm init playwright@latest
+- mac OS
 $ yarn create playwright
 
 ```
@@ -21,10 +23,12 @@ $ npx playwright install
 
 Execute command `npm test:<project name>`
 
-Example run test lotteryplus:
+Example run test empeo:
 
 ```bash
-$ npm run "test:lotteryplus"
-$ yarn run "test:lotteryplus"
+- windows OS
+$ npm run "test:empeo"
+- mac OS
+$ yarn run "test:empeo"
 
 ```

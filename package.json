@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:lotteryplus": "npx playwright test  ./lotteryplus/tests --project Chrome --config=./lotteryplus/playwright.config.ts"
+    "test:empeo": "npx playwright test  ./empeo/tests --headed --project Chrome --config=./empeo/playwright.config.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.50.1",
+    "@playwright/test": "^1.55.0",
     "@types/node": "^22.13.5"
   }
 }
