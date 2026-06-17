@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:empeo": "npx playwright test  ./empeo/tests --headed --project Chrome --config=./empeo/playwright.config.ts --workers=1"
+    "test:empeo": "npx playwright test  ./empeo/tests --project Chrome --config=./empeo/playwright.config.ts --workers=1"
   },
   "keywords": [],
   "author": "",
